@@ -40,6 +40,19 @@ arange_array2 = np.arange(1, 11).reshape((2,5))
 print(arange_array2)
 print("")
 
+#la funcion dtype funciona para poder saber el tipo de valor que es la matriz
+#tambien funciona para cambiar el tipo de valor
+
+zeros_array2 = np.zeros((3,3))
+print(zeros_array2.dtype)
+print("")
+
+zeros_array2_int = np.zeros((3,3), dtype='int64')
+print(zeros_array2_int.dtype)
+print("")
+
+
+
 #  valores para el eje y
 doubling_array = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
 
