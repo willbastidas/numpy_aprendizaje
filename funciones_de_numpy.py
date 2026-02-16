@@ -19,8 +19,16 @@ print(zeros_array.shape)
 
 random_array = np.random.random((3,3))
 print(random_array)
+print("")
 
-#funcion rque permite abarcar un rango para unos numeros en especifico
+#esta es la manera que se tiene para crear un array random con numeros enteros en este caso
+#randint te permite elegir el valor mas bajo y el valor mas alto posible debido a que en este caso se quieren numeros enteros se puso el 0 al 1000
+#y lo que esta al lado dentro parentesis ,(4,4) es las dimensiones que se le quiere dar a la matriz
+random_array2 = np.random.randint(0,1000,(4,4))
+print(random_array2)
+print("")
+
+#funcion que permite abarcar un rango para unos numeros en especifico
 #solo con np.arange() coloca el rango que quieres pero en una dimension si quieres agregar dimensiones
 
 
